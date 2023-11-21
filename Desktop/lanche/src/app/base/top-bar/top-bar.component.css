@@ -1,0 +1,10 @@
+.top-bar {
+  /* background-color: #3498db; */
+  color: orange;
+  padding: 10px;
+}
+
+h1 {
+  margin-left: 20rem;
+  font-size: 3.5rem;
+}

@@ -1,0 +1,28 @@
+.fundo {
+  position: relative;
+}
+
+.titleImg {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 456px;
+  height: 183px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .fundo img {
+    width: calc(100% + 100px);
+    position: absolute;
+    left: -50px;
+  }
+
+  .titleImg {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+  }
+}
