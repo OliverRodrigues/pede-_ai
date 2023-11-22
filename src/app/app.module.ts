@@ -8,18 +8,24 @@ import { MenuModule } from 'primeng/menu';
 import { TopBarComponent } from './base/top-bar/top-bar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ButtonModule } from 'primeng/button';
+import { PedidoComponent } from './pages/pedido/pedido.component';
+import { DialogModule } from 'primeng/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
-    HomeComponent
+    HomeComponent,
+    PedidoComponent
   ],
   imports: [
     BrowserModule,
     MenubarModule,
     MenuModule,
-    ButtonModule
+    ButtonModule,
+    DialogModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
